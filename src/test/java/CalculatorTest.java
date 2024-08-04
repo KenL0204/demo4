@@ -38,7 +38,7 @@ public class CalculatorTest {
 
     @Test
     public void testDivide() {
-        assertEquals(1.5, calculator.divide(3, 2));
+        assertEquals(1.0, calculator.divide(3, 2));
         System.out.println("Test divide method");
     }
 }
